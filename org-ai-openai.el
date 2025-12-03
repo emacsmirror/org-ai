@@ -68,7 +68,23 @@ in the `auth-sources' file."
   :type 'string
   :group 'org-ai)
 
-(defcustom org-ai-chat-models '("gpt-4o-mini"
+(defcustom org-ai-chat-models '(;; "The best model for coding and agentic tasks across domains" https://platform.openai.com/docs/models/gpt-5
+                                "gpt-5.1-2025-11-13"
+                                ;; "A faster, cost-efficient version of GPT-5 for well-defined tasks" https://platform.openai.com/docs/models/gpt-5-mini
+                                "gpt-5-mini-2025-08-07"
+                                ;; "Fastest, most cost-efficient version of GPT-5" https://platform.openai.com/docs/models/gpt-5-nano
+                                "gpt-5-nano-2025-08-07"
+                                ;; Version of GPT-5 that produces smarter and more precise responses
+                                "gpt-5-pro-2025-10-06"
+                                ;; "Smartest non-reasoning model" https://platform.openai.com/docs/models/gpt-4.1
+                                "gpt-4.1-2025-04-14"
+                                ;; "Our most powerful deep research model" https://platform.openai.com/docs/models/o3-deep-research
+                                "o3-deep-research-2025-06-26"
+                                ;; "Faster, more affordable deep research model" https://platform.openai.com/docs/models/o4-mini-deep-research
+                                "o4-mini-deep-research-2025-06-26"
+                                ;; "GPT-5 model used in ChatGPT" https://platform.openai.com/docs/models/gpt-5-chat-latest
+                                "gpt-5-chat-latest"
+                                "gpt-4o-mini"
                                 "gpt-4"
                                 "gpt-4-32k"
                                 "gpt-4-turbo"
@@ -87,6 +103,7 @@ in the `auth-sources' file."
                                 "o1-mini"
                                 "o3"
                                 "o3-mini"
+                                "o3-pro"
                                 "o4-mini"
                                 "chatgpt-4o-latest")
   "Alist of available chat models. See https://platform.openai.com/docs/models."

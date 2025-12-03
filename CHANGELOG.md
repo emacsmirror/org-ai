@@ -1,5 +1,9 @@
 # Changelog
 
+## [0.5.7] - 2025-12-03
+### Changed
+- Updated list of OpenAI models for selection
+
 ## [0.5.6] - 2025-04-19
 ### Added
 - Google / gemini support
