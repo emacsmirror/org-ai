@@ -69,13 +69,13 @@ in the `auth-sources' file."
   :group 'org-ai)
 
 (defcustom org-ai-chat-models '(;; "The best model for coding and agentic tasks across domains" https://platform.openai.com/docs/models/gpt-5
-                                "gpt-5.1-2025-11-13"
+                                "gpt-5.2-2025-12-11"
                                 ;; "A faster, cost-efficient version of GPT-5 for well-defined tasks" https://platform.openai.com/docs/models/gpt-5-mini
                                 "gpt-5-mini-2025-08-07"
                                 ;; "Fastest, most cost-efficient version of GPT-5" https://platform.openai.com/docs/models/gpt-5-nano
                                 "gpt-5-nano-2025-08-07"
                                 ;; Version of GPT-5 that produces smarter and more precise responses
-                                "gpt-5-pro-2025-10-06"
+                                "gpt-5.2-pro-2025-12-11"
                                 ;; "Smartest non-reasoning model" https://platform.openai.com/docs/models/gpt-4.1
                                 "gpt-4.1-2025-04-14"
                                 ;; "Our most powerful deep research model" https://platform.openai.com/docs/models/o3-deep-research

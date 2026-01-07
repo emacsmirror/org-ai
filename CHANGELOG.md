@@ -1,5 +1,9 @@
 # Changelog
 
+## [0.5.8] - 2026-01-07
+### Changed
+- Updated list of OpenAI models for selection
+
 ## [0.5.7] - 2025-12-03
 ### Changed
 - Updated list of OpenAI models for selection
